@@ -31,6 +31,8 @@ RUN apt-get update \
 		libmysqlclient-dev \
 		unzip \
 		wget \
+		mc \
+		nano \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Create directories
